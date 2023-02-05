@@ -1,0 +1,58 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+*{
+    background-color: black;
+}
+
+#home{
+    display: flex;
+    justify-content: center;
+    margin-top: 29px;
+}
+
+.box{
+    text-align: center;
+    border: 3px solid rgb(74, 72, 81);
+    margin: 0px 10px;
+    padding: 10px 25px;
+    border-radius: 20px;
+    
+}
+
+.box img{
+    height: 500px;
+    display: block;
+    margin: auto;
+}
+
+.sub-box{
+    text-align: center;
+    border: 3px solid rgb(74, 72, 81);
+    margin: 0px 225px;
+    padding: 10px 25px;
+    border-radius: 20px;
+}
+
+.para{
+    color: white;
+    margin: 58px 184px;
+    font-size: 17px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.center{
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    margin-top: 29px;
+    font-family: 'Unbounded', cursive;
+}
+
+.sub-center{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Unbounded', cursive;
+}
