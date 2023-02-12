@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Cabin+Sketch&display=swap');
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+body::before{
+    content: "";
+    position: absolute;
+    background: url('bg.jpeg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+.title{
+    display:flex;
+    margin:auto;
+    padding-top: 20px;
+    font-size: 25px;
+    font-family: 'Cabin Sketch', cursive;
+    color: white;
+}
+.container{
+    width: 50%;
+    min-width: 200px;
+    position: absolute;
+    height:40%;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    background: #ecf0f3;
+    border-radius: 30px;
+    align-items: center;
+}
+.container:before{
+    content: "";
+    position: absolute;
+    background: url('cover.jpg') no-repeat center center/cover;
+    height: 100%;
+    width: 100%;
+    z-index: -2;
+}
+header{
+    position: relative;
+    padding: 30px 20px;
+    
+}
+header h2{
+    text-align: center;
+    padding-bottom: 21px;
+    font-family: 'Cabin Sketch', cursive;
+}
+
+
+#display{
+    width: 75%;
+    height: 45px;
+    font-size: 15px;
+    border:none; 
+    padding: 12px;
+    font-weight: 500;
+    position: relative;
+    background: #ecf0f3;
+    border-radius: 50px; 
+    background-color: rgb(199, 192, 255);
+}
+
+#btn{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 45px;
+    border-radius: 20px;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #408ee8;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    }        
+#btn:hover{
+    background-color: #197ced;
+}    
+ul{
+    background-color: #ffffff;
+    padding: 20px 20px;
+    margin-top: -20px;
+    border-radius: 10px;
+    width: 100%;
+    position: relative;
+    }
+li{
+        background-color: #e4c5e6;
+        height: 50px;
+        margin-top:5px ;
+        margin-bottom: 8px;
+        padding: 15px 10px;
+        display: flex;
+        border-radius: 20px;
+        align-items: center;
+        border: 1px solid #939697;
+        cursor: pointer;  
+    }
+li.checked {
+    text-decoration: line-through;
+}
+.todo-list{
+    flex-grow: 1;
+}
+.far{
+    position: relative ;
+    right:0px;
+    top:0px;
+    padding: 12px 16px;
+}
+.fa-solid .fa-clipboard-check{
+padding-left: 50px;
+}
